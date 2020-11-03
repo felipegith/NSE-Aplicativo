@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "tarefas",
+    "name": "NSE",
     "slug": "tarefas",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -8,7 +8,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#4DC2A2"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -17,7 +17,17 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.costadeveloper.NSEAPP",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.costadeveloper.NSEAPP",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#4DC2A2"
+      },
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
